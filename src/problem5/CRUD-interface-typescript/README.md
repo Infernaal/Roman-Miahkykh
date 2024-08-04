@@ -23,12 +23,12 @@ This is a CRUD API interface built with **ExpressJS** and **TypeScript**. It use
 ### Read
 - **GET** `/api/resources`
 
-![Read || Postman](https://example.com/expressjs-logo.png)
+![Read || Postman](https://i.imgur.com/ev3cRdT.jpeg)
 
 ### Read by ID
 - **GET** `/api/resources/:id`
 
-![Read by ID || Postman](https://example.com/expressjs-logo.png)
+![Read by ID || Postman](https://i.imgur.com/KsOdJmg.jpeg)
 
 ### Create
 - **POST** `/api/resources`
