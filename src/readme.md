@@ -74,4 +74,3 @@ This module is responsible for managing the leaderboard on the website. It provi
 2. Use JWT for user authorization and validate JWT tokens for all API requests.
 3. Use WebSockets for real-time updates
 4. Implement rate limiting to prevent DDoS attacks.
-```
