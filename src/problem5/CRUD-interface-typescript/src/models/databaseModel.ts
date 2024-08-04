@@ -1,5 +1,5 @@
-import sqlite3 from "sqlite3";
-import { open } from "sqlite";
+import sqlite3 from 'sqlite3';
+import { open } from 'sqlite';
 
 const dbOpen = open({
     filename: 'sqlite.db',
