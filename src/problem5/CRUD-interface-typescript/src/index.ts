@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.json());
-app.use('/', resourceRoutes);
+app.use('/api/v1', resourceRoutes);
 
 dbOpen.then(db => {
     db.run('CREATE TABLE IF NOT EXISTS resources (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, description TEXT, category TEXT').then(() => {
