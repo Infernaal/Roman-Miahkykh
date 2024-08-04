@@ -1,4 +1,3 @@
-```markdown
 # 🏆 Scoreboard API Module
 
 ## 📘 Description
