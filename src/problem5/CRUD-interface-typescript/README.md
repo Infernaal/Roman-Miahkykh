@@ -15,4 +15,5 @@ This is a CRUD API interface built with ExpressJS and TypeScript. It uses SQLite
    npm start
 
 2. CRUD function:
+    ```bash
     Download the desktop version of Postman to test the CRUD functions using POST, GET, PUT, DELETE.
