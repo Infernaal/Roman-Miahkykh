@@ -1,7 +1,5 @@
 # 📦 ExpressJS TypeScript CRUD API
 
-![ExpressJS Logo](https://example.com/expressjs-logo.png)
-
 ## ✨ Description
 
 This is a CRUD API interface built with **ExpressJS** and **TypeScript**. It uses **SQLite** for data persistence.
@@ -25,8 +23,12 @@ This is a CRUD API interface built with **ExpressJS** and **TypeScript**. It use
 ### Read
 - **GET** `/api/resources`
 
+![Read || Postman](https://example.com/expressjs-logo.png)
+
 ### Read by ID
 - **GET** `/api/resources/:id`
+
+![Read by ID || Postman](https://example.com/expressjs-logo.png)
 
 ### Create
 - **POST** `/api/resources`
@@ -38,6 +40,9 @@ This is a CRUD API interface built with **ExpressJS** and **TypeScript**. It use
   }
   ```
 
+![Create || Postman](https://i.imgur.com/89ZWjYl.jpeg)
+
+
 ### Update
 - **PUT** `/api/resources/:id`
   ```json
@@ -48,8 +53,13 @@ This is a CRUD API interface built with **ExpressJS** and **TypeScript**. It use
   }
   ```
 
+![Update || Postman](https://example.com/expressjs-logo.png)
+
+
 ### Delete
 - **DELETE** `/api/resources/:id`
-```
 
+![Delete || Postman](https://example.com/expressjs-logo.png)
+
+```
 This updated README file uses a more attractive and consistent Markdown style, making it easier to read and understand. The use of emojis adds visual appeal, and the code blocks for commands and JSON examples are clearly separated for better readability.
