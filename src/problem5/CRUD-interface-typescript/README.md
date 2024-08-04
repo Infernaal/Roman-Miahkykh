@@ -1,4 +1,3 @@
-```markdown
 # 📦 ExpressJS TypeScript CRUD API
 
 ## ✨ Description
