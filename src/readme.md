@@ -23,7 +23,9 @@ This module is responsible for managing the leaderboard on the website. It provi
 
 ### Get leaderboard
 - **GET** `/api/leaderboard`
+
   - **Description:** Returns the top 10 user scores.
+
   - **Response:**
     ```json
     [
@@ -37,7 +39,9 @@ This module is responsible for managing the leaderboard on the website. It provi
 
 ### Update user score
 - **POST** `/api/leaderboard/update`
+
   - **Description:** Updates the user's score.
+
   - **Request body:**
     ```json
     {
@@ -45,6 +49,7 @@ This module is responsible for managing the leaderboard on the website. It provi
       "score": 100
     }
     ```
+    
   - **Response:**
     ```json
     {
