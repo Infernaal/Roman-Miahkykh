@@ -7,10 +7,10 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.json());
-app.use('/api/v1', resourceRoutes);
+app.use('/api', resourceRoutes);
 
 dbOpen.then(db => {
-    db.run('CREATE TABLE IF NOT EXISTS resources (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, description TEXT, category TEXT').then(() => {
+    db.run('CREATE TABLE IF NOT EXISTS resources (id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, description TEXT, category TEXT)').then(() => {
         app.listen(PORT, () => {
             console.log(`Server is running on http://localhost:${PORT}`);
         });

@@ -9,7 +9,7 @@ export interface Resource {
 
 export async function createResource(resource : Resource) {
     const db = await dbOpen;
-    const resultCreate = await db.run('INSERT INTO resources (name, description, category) VALUES (?, ?)', resource.name, resource.description, resource.category);
+    const resultCreate = await db.run('INSERT INTO resources (name, description, category) VALUES (?, ?, ?)', resource.name, resource.description, resource.category);
     return {id: resultCreate.lastID, ...resource};
 }
 

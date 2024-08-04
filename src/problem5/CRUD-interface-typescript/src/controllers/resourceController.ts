@@ -10,12 +10,12 @@ export async function create(req: Request, res: Response) {
     }
 }
 
-export async function read(res: Response) {
+export async function read(req: Request, res: Response) {
     try {
         const resource = await readResource();
         res.json(resource);
-    } catch(error) {
-        res.status(500).json({ error: 'Failed to read resource database.' })
+    } catch (error) {
+        res.status(500).json({ error: 'Failed to read resource database.' });
     }
 }
 
