@@ -1,5 +1,7 @@
 # 📦 ExpressJS TypeScript CRUD API
 
+![ExpressJS Logo](https://example.com/expressjs-logo.png)
+
 ## ✨ Description
 
 This is a CRUD API interface built with **ExpressJS** and **TypeScript**. It uses **SQLite** for data persistence.
