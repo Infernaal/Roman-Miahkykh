@@ -43,7 +43,7 @@ function getInfoFromResourceId(id) {
 function updateResource(id, resource) {
     return __awaiter(this, void 0, void 0, function* () {
         const db = yield databaseModel_1.default;
-        yield db.run('UPDATE resources SET name = ?, description = ?, category = ?', resource.name, resource.description, resource.category);
+        yield db.run('UPDATE resources SET name = ?, description = ?, category = ? WHERE id = ?', resource.name, resource.description, resource.category, id);
         return Object.assign({ id }, resource);
     });
 }

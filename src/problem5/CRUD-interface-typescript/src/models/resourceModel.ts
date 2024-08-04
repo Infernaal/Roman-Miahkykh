@@ -27,7 +27,7 @@ export async function getInfoFromResourceId(id: number) {
 
 export async function updateResource(id: number, resource : Resource) {
     const db = await dbOpen;
-    await db.run('UPDATE resources SET name = ?, description = ?, category = ? WHERE id = ?', resource.name, resource.description, resource.category, resource.id);
+    await db.run('UPDATE resources SET name = ?, description = ?, category = ? WHERE id = ?', resource.name, resource.description, resource.category, id);
     return {id, ...resource};
 }
 

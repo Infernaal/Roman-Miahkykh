@@ -54,13 +54,16 @@ This is a CRUD API interface built with **ExpressJS** and **TypeScript**. It use
   }
   ```
 
-![Update || Postman](https://example.com/expressjs-logo.png)
+![Update || Postman](https://i.imgur.com/vNicJP9.jpeg)
 
+![Update || Postman](https://i.imgur.com/EVzuRE4.jpeg)
 
 ### Delete
 - **DELETE** `/api/resources/:id`
 
-![Delete || Postman](https://example.com/expressjs-logo.png)
+![Delete || Postman](https://i.imgur.com/W0Kjt9P.jpeg)
+
+![Delete || Postman](https://i.imgur.com/qcQM5gn.jpeg)
 
 ```
 This updated README file uses a more attractive and consistent Markdown style, making it easier to read and understand. The use of emojis adds visual appeal, and the code blocks for commands and JSON examples are clearly separated for better readability.
