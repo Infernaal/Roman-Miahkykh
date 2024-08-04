@@ -40,8 +40,9 @@ This is a CRUD API interface built with **ExpressJS** and **TypeScript**. It use
   }
   ```
 
-![Create || Postman](https://i.imgur.com/89ZWjYl.jpeg)
+![Create || Postman](https://i.imgur.com/n4o1ffj.jpeg)
 
+![Create || Postman](https://i.imgur.com/CilNYnK.jpeg)
 
 ### Update
 - **PUT** `/api/resources/:id`
