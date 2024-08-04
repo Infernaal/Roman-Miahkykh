@@ -24,7 +24,7 @@ This module is responsible for managing the leaderboard on the website. It provi
 ### Get leaderboard
 - **GET** `/api/leaderboard`
 
-  - **Description:** Returns the top 10 user scores.
+  - **Description:** Using this request, the backend server will return the top 10 users. If additional options are available, you can explicitly specify the top 10 users through the API.
 
   - **Response:**
     ```json
@@ -33,14 +33,14 @@ This module is responsible for managing the leaderboard on the website. It provi
         "user_id": "123",
         "score": 1000
       },
-      ...
+      ...and the remaining 9 users in the top.
     ]
     ```
 
 ### Update user score
 - **POST** `/api/leaderboard/update`
 
-  - **Description:** Updates the user's score.
+  - **Description:** This request will automatically update the top 10 users table in real time and display the results based on the changes since the last update.
 
   - **Request body:**
     ```json
@@ -49,11 +49,11 @@ This module is responsible for managing the leaderboard on the website. It provi
       "score": 100
     }
     ```
-    
+
   - **Response:**
     ```json
     {
-      "status": "success",
+      "status": "200 OK",
       "message": "Score updated successfully."
     }
     ```
@@ -68,15 +68,10 @@ This module is responsible for managing the leaderboard on the website. It provi
 4. If authorization is successful, the server updates the score in the database.
 5. The leaderboard updates in real-time.
 
-## 📝 Additional Comments
-
-- **Security:** Use JWT for user authorization.
-- **Performance:** Use WebSockets for real-time updates.
-- **Scalability:** Consider using Redis for caching scores.
-
 ## 🛡️ Security Requirements
 
 1. Use HTTPS to encrypt data.
-2. Validate JWT tokens for all API requests.
-3. Implement rate limiting to prevent DDoS attacks.
+2. Use JWT for user authorization and validate JWT tokens for all API requests.
+3. Use WebSockets for real-time updates
+4. Implement rate limiting to prevent DDoS attacks.
 ```
