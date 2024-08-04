@@ -8,7 +8,7 @@ This is a CRUD API interface built with ExpressJS and TypeScript. It uses SQLite
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Infernaal/Roman-Miahkykh.git>
    cd src/problem5/CRUD-interface-TypeScript
    npm install
    npx tsc
