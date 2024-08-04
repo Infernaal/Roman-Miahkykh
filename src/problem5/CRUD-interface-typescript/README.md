@@ -17,3 +17,11 @@ This is a CRUD API interface built with ExpressJS and TypeScript. It uses SQLite
 2. CRUD function:
     ```bash
     Download the desktop version of Postman ( https://www.postman.com/downloads/ ) to test the CRUD functions using POST, GET, PUT, DELETE.
+
+## API ENDPOINTS
+```bash
+   Read: GET /api/resources
+   ReadResourceId: GET /api/resources/:id
+   Create: POST /api/resources with 
+   Update: PUT /api/resources/:id
+   Delete: DELETE /api/resources/:id
