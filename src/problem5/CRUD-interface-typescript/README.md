@@ -20,8 +20,8 @@ This is a CRUD API interface built with ExpressJS and TypeScript. It uses SQLite
 
 ## API ENDPOINTS
 ```bash
-   Read: GET /api/resources
-   ReadResourceId: GET /api/resources/:id
-   Create: POST /api/resources with 
-   Update: PUT /api/resources/:id
-   Delete: DELETE /api/resources/:id
+   **Read:** GET /api/resources
+   **ReadResourceId:** GET /api/resources/:id
+   **Create:** POST /api/resources with 
+   **Update:** PUT /api/resources/:id
+   **Delete:** DELETE /api/resources/:id
