@@ -60,7 +60,7 @@ This module is responsible for managing the leaderboard on the website. It provi
 
 ## 📈 Flow Diagram
 
-![Flow Diagram](https://i.imgur.com/kBscrqi.png)
+![Flow Diagram](https://i.imgur.com/t5OiNnt.png)
 
 1. User performs an action on the website.
 2. The action sends an API request to the server to update the score.
