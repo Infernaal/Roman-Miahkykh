@@ -9,7 +9,7 @@ This is a CRUD API interface built with **ExpressJS** and **TypeScript**. It use
 1. **Clone the repository:**
    ```bash
    git clone <https://github.com/Infernaal/Roman-Miahkykh.git>
-   cd src/problem5/CRUD-interface-TypeScript
+   cd src/problem5/CRUD-interface-typescript
    npm install
    npx tsc
    npm start
