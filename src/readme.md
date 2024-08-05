@@ -61,7 +61,7 @@ This module is responsible for managing the leaderboard on the website. It provi
   - **Bad Response:**
     ```json
     {
-      "status": "500",
+      "status": "500 Internal Server Error",
       "message": "Failed to update score.",
       "error": "Error: ${error}"
     }
