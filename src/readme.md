@@ -50,13 +50,22 @@ This module is responsible for managing the leaderboard on the website. It provi
     }
     ```
 
-  - **Response:**
+  - **Good Response:**
     ```json
     {
       "status": "200 OK",
       "message": "Score updated successfully."
     }
     ```
+
+  - **Bad Response:**
+    ```json
+    {
+      "status": "500",
+      "message": "Failed to update score.",
+      "error": "Error: ${error}"
+    }
+    ```  
 
 ## 📈 Flow Diagram
 
